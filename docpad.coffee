@@ -12,27 +12,24 @@ docpadConfig = {
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://savboxing.ru"
+      url: "http://firfi.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
-        'savboxing.herokuapp.com'
-        'www.savboxing.ru'
+        'firfi.herokuapp.com'
+        'www.firfi.com'
       ]
 
       # The default title of our website
-      title: "Бокс на Савеловской. МПО им. Румянцева"
+      title: "Firfi Inc."
 
       # The website description (for SEO)
       description: """
-        Секция бокса рядом с Савеловской, Динамо, Дмитровской. Проводим занятия для всех возрастов.
-        Два зала, сауна.
-        Рядом и недорого.
+        Firfi personal page. Fullstack web development, ponies, unicorns, pegasi.
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        бокс, бокс савеловская, бокс дмитровская, бокс динамо, бокс тимирязевская, секция, разряд, бокс разряд, савеловская, дмитровская, тимирязевская
         """
 
       # The website author's name
@@ -55,12 +52,7 @@ docpadConfig = {
       ]
 
       services:
-        googleAnalytics: 'UA-43429259-1'
-        facebookLikeButton:
-          applicationId: '148228202051189'
-        vkLikeButton:
-          applicationId: '3839130'
-
+        googleAnalytics: ''
 
 
 
@@ -114,12 +106,7 @@ docpadConfig = {
       imageMagick: true
     downloader:
       downloads: [
-        {
-          name: 'Twitter Bootstrap'
-          path: 'src/files/vendor/twitter-bootstrap'
-          url: 'https://nodeload.github.com/twitter/bootstrap/tar.gz/master'
-          tarExtractClean: true
-        }
+
       ]
     sitemap:
       cachetime: 600000

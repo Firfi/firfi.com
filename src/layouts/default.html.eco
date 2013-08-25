@@ -6,6 +6,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
+
 	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
 	   More info: h5bp.com/i/378 -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -20,7 +21,7 @@
 	<%- @getBlock('meta').toHTML() %>
 
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
-	<meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Icons -->
     <link rel="shortcut icon" href="icons/favicon.ico">
@@ -42,21 +43,27 @@
 </head>
 <body>
 	<!-- Markup -->
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="brand" href="/">Главная</a>
-				<ul class="nav">
-					<% for document in @getCollection('pages').toJSON(): %>
-						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-							<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
-						</li>
-					<% end %>
-				</ul>
-				<div class="phone brand"><i class="icon-phone-sign icon-large"></i> 8 (916) 587-13-58</div>
-			</div>
-		</div>
-	</div>
+	<div class="navbar navbar-default" role="navigation">
+        <div class="navbar-inner">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Firfi.com</a>
+            </div>
+            <p class="navbar-text">Ponies, unicorns and pegasi</p>
+            <!--<ul class="collapse navbar-collapse navbar-ex1-collapse">
+                <% for document in @getCollection('pages').toJSON(): %>
+                    <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
+                        <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+                    </li>
+                <% end %>
+            </ul> -->
+        </div>
+    </div>
 	<div class="container">
 		<section id="content" class="content">
 			<%- @content %>

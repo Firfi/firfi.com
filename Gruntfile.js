@@ -15,7 +15,8 @@ module.exports = function(grunt) {
       combine: {
         dest: 'out/built.min.css',
         src: [
-          "out/styles/twitter-bootstrap.css",
+          "out/vendor/bootstrap/css/bootstrap.css",
+          "out/styles/bootstrap/css/bootstrap-theme.css",
           "out/styles/style.css",
           "out/vendor/fancybox/jquery.fancybox.css"
         ]
