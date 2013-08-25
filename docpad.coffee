@@ -16,9 +16,6 @@ docpadConfig = {
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
-        'firfi.herokuapp.com'
-        'firfi.com'
-        'http://firfi.com'
       ]
 
       # The default title of our website
