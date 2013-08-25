@@ -12,10 +12,12 @@ docpadConfig = {
     # Specify some site properties
     site:
       # The production url of our website
-      url: "www.firfi.com"
+      url: "http://www.firfi.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
+        'firfi.herokuapp.com'
+        'firfi.com'
       ]
 
       # The default title of our website
