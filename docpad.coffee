@@ -18,6 +18,7 @@ docpadConfig = {
       oldUrls: [
         'firfi.herokuapp.com'
         'firfi.com'
+        'http://firfi.com'
       ]
 
       # The default title of our website
