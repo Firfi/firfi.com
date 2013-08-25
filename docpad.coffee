@@ -52,7 +52,7 @@ docpadConfig = {
       ]
 
       services:
-        googleAnalytics: ''
+        googleAnalytics: 'UA-43477700-1'
 
 
 

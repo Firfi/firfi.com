@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/documents/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="278" selection-end="278" vertical-scroll-proportion="0.5574324">
+            <state line="11" column="35" selection-start="278" selection-end="278" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -150,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docpad.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="docpad.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docpad.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="478" selection-end="478" vertical-scroll-proportion="3.0">
+            <state line="54" column="39" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.89830506">
               <folding />
             </state>
           </provider>
@@ -174,8 +174,8 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/documents/styles/style.css.styl" />
         <option value="$PROJECT_DIR$/src/layouts/default.html.eco" />
-        <option value="$PROJECT_DIR$/docpad.coffee" />
         <option value="$PROJECT_DIR$/src/documents/index.html" />
+        <option value="$PROJECT_DIR$/docpad.coffee" />
       </list>
     </option>
   </component>
@@ -712,16 +712,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docpad.coffee">
+    <entry file="file://$PROJECT_DIR$/src/documents/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="478" selection-end="478" vertical-scroll-proportion="3.0">
+        <state line="11" column="35" selection-start="278" selection-end="278" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documents/index.html">
+    <entry file="file://$PROJECT_DIR$/docpad.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="278" selection-end="278" vertical-scroll-proportion="0.5574324">
+        <state line="54" column="39" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.89830506">
           <folding />
         </state>
       </provider>
